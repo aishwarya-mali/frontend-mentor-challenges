@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+}
+
+h1, h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.btn{
+    border-radius: 5rem;
+    background-color: #fff;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1.5rem 6rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary{
+    margin-top: 2.5rem;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+}
+
+.container{
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex > div, .flex > ul{
+    flex: 1;
+}
+
+.center{
+    text-align: center;
+}
+
+p{
+    opacity: 0.6;
+}
+
+header{
+    background: url(images/bg-hero-desktop.svg) no-repeat center center /cover;
+    background-color:hsl(193, 100%, 96%);
+    padding: 4rem 0;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.hero{
+    margin-right: 1rem;
+}
+
+.hero p{
+    font-size: 1.6rem;
+    margin-bottom: 2.5rem;
+}
+
+.box{
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin: 4rem 0;
+    padding: 6rem;
+    background-color: #fff;
+}
+
+.box .flex p{
+    font-size: 1.6rem;
+    margin-top: 1.2rem;
+}
+
+.box img{
+    width: 80%;
+}
+
+.cta-box{
+    display: inline-block;
+    position: relative;
+    margin-bottom: -50%;
+    z-index: 1;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 18rem 0 6rem;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.footer-flex{
+    align-items: flex-start;
+    margin-top: 3rem;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+footer ul li{
+    margin-bottom: 2rem;
+}
+
+footer p{
+    text-align: right;
+}
+
+.address li{
+    display: flex;
+}
+
+.address ul{
+    margin: 0;
+}
+
+.address li i{
+    margin-right: 1.5rem;
+}
+
+
+@media screen and (max-width: 768px){
+
+    body, footer p{
+        text-align: center;
+    }
+
+    .btn{
+        padding: 1.2rem 1rem;
+    }
+
+    .btn-primary{
+        margin-top: 0;
+    }
+
+    .logo{
+        width: 60%;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+
+    nav.flex{
+        flex-direction: row;
+    }
+
+    .hero-img{
+        margin-top: 4rem;
+    }
+
+    .reverse{
+        flex-direction: column-reverse;
+    }
+
+    footer ul{
+        width: 100%;
+        padding: 0;
+    }
+}
