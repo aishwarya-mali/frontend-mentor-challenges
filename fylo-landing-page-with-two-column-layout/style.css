@@ -266,6 +266,11 @@ footer .flex{
 }
 
 @media only screen and (max-width: 768px){
+
+    header .logo{
+        width: 120px;
+    }
+
     nav.flex, .flex.nav-menu, .social-icons.flex{
         flex-direction: row;
     }
@@ -300,6 +305,17 @@ footer .flex{
 
 }
 
+@media only screen and (max-width: 425px){
+    .subscribe .btn{
+        margin-top: 1.5rem;
+    }
+
+    .social{
+        margin: auto;
+    }
+
+}
+
 @media only screen and (max-width: 400px){
 
     :root{
@@ -310,14 +326,6 @@ footer .flex{
         text-align: center;
     }
 
-    .social-icons.flex{
-        margin-left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .subscribe .btn{
-        margin-top: 1.5rem;
-    }
 
     .nav-menu li+li{
         margin-left: .8rem;
