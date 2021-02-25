@@ -1,14 +1,142 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 
 :root{
     font-size: 62.5%;
+    --StrongCyan: hsl(171, 66%, 44%);
+    --LightBlue: hsl(233, 100%, 69%);
+    --DarkGrayishBlue: hsl(210, 10%, 33%);
+    --GrayishBlue: hsl(201, 11%, 66%);
 }
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 1.8rem;
-} */
+    line-height: 1.6;
+    color: var(--DarkGrayishBlue);
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+h1, h2{
+    margin-bottom: 2rem;
+}
+
+p{
+    color: var(--GrayishBlue);
+    font-size: 1.4rem;
+    max-width: 50rem;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+    
+.btn{
+    border: 0;
+    outline: none;
+    padding: .8em 2em;
+    border-radius: 5rem;
+    font-size: 1.4rem;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.btn-primary{
+    background: var(--LightBlue);  
+    border-bottom: 3px solid #5262dc; 
+}
+
+.btn-success{
+    background: var(--StrongCyan);
+    border-bottom: 3px solid #2f9580;
+    margin-right: 1rem;
+}
+
+.text-center{
+    text-align: center;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 12.5rem;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.header{
+    background: url(images/bg-header-desktop.png) no-repeat top center /cover;
+    padding: 10rem 0;
+}
+
+.feature{
+    margin-top: 2rem;
+}
+
+.feature .text-center{
+    margin-bottom: 6rem;
+}
+
+.feature-img{
+    margin-left: -10%;
+}
+
+.feature-text{
+    padding: 10rem;
+}
+
+.feature-text p{
+    max-width: 30rem;
+}
+
+.feature-1{
+    padding: 10rem 0 5rem;
+}
+
+.feature-1img{
+    text-align: center;
+}
+
+.feature-1 p{
+    padding: 2rem 0 4rem 0;
+}
+
+
+.feature-2{
+    padding: 0 10rem 0;
+}
+
+.feature-2 .flex{
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.feature-2 .flex div + div{
+    margin-left: 3rem;
+}
+
+.logos{
+    padding: 5rem;
+}
+
+.logos .flex{
+    justify-content: space-around;
+}
