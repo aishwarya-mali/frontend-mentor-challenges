@@ -9,6 +9,7 @@
 | 5 | Huddle Landing Page using Flex | [Preview Site](https://huddle-landing-page-frontendmentor.netlify.app/) | [View Code](https://github.com/aishwarya-mali/frontendmentor.io/tree/main/huddle-landing-page-with-alternating-feature-blocks)|
 | 6 | Responsive Fylo landing page with two column layout using HTML & CSS | [Preview Site](https://fylo-two-column-frontendmentor.netlify.app/) | [View Code](https://github.com/aishwarya-mali/frontendmentor.io/tree/main/fylo-landing-page-with-two-column-layout)|
 | 7 | Four Card Feature Section using HTML & CSS | [Preview Site](https://four-card-feature-section-frontendmentor.netlify.app/) | [View Code](https://github.com/aishwarya-mali/frontendmentor.io/tree/main/four-card-feature-section)|
+| 8 | Clipboard Landing Page using Animate.css | [Preview Site](https://clipboard-landing-frontendmentor.netlify.app/) | [View Code](https://github.com/aishwarya-mali/frontendmentor.io/tree/main/clipboard-landing-page)|
 
 
 
