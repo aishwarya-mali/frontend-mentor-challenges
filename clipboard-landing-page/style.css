@@ -72,26 +72,35 @@ p{
 .flex{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+.container{
+    padding: 5rem;
+}
+
+.mb-8{
+    margin-bottom: 8rem;
+}
+
+.pt-4{
+    margin-top: 4rem;
+}
+
+header{
+    background: url(images/bg-header-mobile.png) no-repeat center center /cover;
+    padding: 4rem 0
 }
 
 .logo{
-    width: 12.5rem;
     margin: auto;
-    margin-bottom: 5rem;
 }
 
-.header{
-    background: url(images/bg-header-desktop.png) no-repeat top center /cover;
-    padding: 10rem 0;
-}
-
-.feature{
-    margin-top: 2rem;
+.logo, .footer-logo{
+    width: 10rem;
 }
 
 .feature .text-center{
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
 }
 
 .feature-img{
@@ -99,44 +108,84 @@ p{
 }
 
 .feature-text{
-    padding: 10rem;
-}
-
-.feature-text p{
-    max-width: 30rem;
-}
-
-.feature-1{
-    padding: 10rem 0 5rem;
-}
-
-.feature-1img{
-    text-align: center;
-}
-
-.feature-1 p{
-    padding: 2rem 0 4rem 0;
-}
-
-
-.feature-2{
-    padding: 0 10rem 0;
+    padding: 8rem;
 }
 
 .feature-2 .flex{
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
-    flex-wrap: nowrap;
 }
 
 .feature-2 .flex div + div{
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
-.logos{
-    padding: 5rem;
-}
-
-.logos .flex{
+.logos .flex, footer .flex{
     justify-content: space-around;
+}
+
+footer{
+    background: #f6f6f6;
+}
+
+.footer-links{
+    flex: 2;
+}
+
+.flex-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-links li+li{
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        font-size: 1.6rem;
+        line-height: 1.2;
+    }
+    
+    .flex{
+        flex-direction: column;
+    }
+
+    .feature-img{
+        margin-left: 0;
+    }
+
+    .mx-4{
+        margin: 0 4rem;
+    }
+
+    .logo{
+        margin-bottom: 1rem;
+    }
+
+    .btn-success{
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .feature-text{
+        text-align: center;
+    }
+
+    h3, .feature-2 img{
+        margin-bottom: 1rem;
+    }
+
+    .logos .flex div + div, footer .flex div + div{
+        margin-top: 4rem;
+    }
+
+    .footer-links .flex-links{
+        flex-direction: column;
+    }
+
+    .footer-links .flex-links li + li{
+        margin-top: 1rem;
+    }
 }
