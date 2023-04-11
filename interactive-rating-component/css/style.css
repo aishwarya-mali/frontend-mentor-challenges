@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.5rem;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.rating-container, .thanks-container{
+  max-width: 40rem;
+  background-color: hsl(213, 19%, 18%);
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+.circular-bg{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background: hsl(213, 19%, 23%);
+  display: grid;
+  place-items: center;
+}
+
+.rating-star{
+  margin-bottom: 2.5rem;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+
+p{
+  color: hsl(216, 12%, 54%);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.ratings{
+  color: hsl(216, 12%, 54%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.ratings .circular-bg:hover{
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  transition: 0.2s;
+}
+
+.ratings .circular-bg:active, .active{
+  background: hsl(216, 12%, 54%) !important;
+  color: hsl(0, 0%, 100%) !important;
+}
+
+button{
+  border: none;
+  outline: none;
+  background: hsl(25, 97%, 53%);
+  width: 100%;
+  padding: 1.5rem 0;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  border-radius: 5rem;
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.5rem;
+}
+
+button:hover{
+  color: hsl(25, 97%, 53%);
+  background: hsl(0, 0%, 100%);
+  transition: 0.2s;
+}
+
+.d-none{
+  display: none;
+}
+
+.thanks-container{
+  text-align: center;
+}
+
+.thanks-container img{
+  margin-bottom: 2.5rem;
+}
+
+.selected-rating{
+  display: inline-block;
+  color: hsl(25, 97%, 53%);
+  background: hsl(213, 19%, 23%);
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.4rem;
+}
