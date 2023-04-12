@@ -116,3 +116,9 @@ button:hover{
   margin-bottom: 2.5rem;
   font-size: 1.4rem;
 }
+
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 50%;
+  }
+}
