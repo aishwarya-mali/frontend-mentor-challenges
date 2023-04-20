@@ -27,7 +27,7 @@ main {
     padding: 3rem;
 }
 
-.date {
+.dateDiv {
     display: flex;
 }
 
@@ -40,7 +40,7 @@ label:not(:first-child) {
     margin-left: 1.5rem;
 }
 
-label>span {
+label>span:first-child {
     text-transform: uppercase;
     margin-bottom: 0.5rem;
     letter-spacing: 0.2rem;
@@ -55,6 +55,7 @@ input[type="number"] {
     padding-left: 1rem;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
 }
 
 input[type="number"]:focus{
@@ -92,4 +93,19 @@ h1 {
 
 .age h1 span {
     color: hsl(259, 100%, 65%);
+}
+
+/* Error styles */
+
+.error input[type="number"]{
+    border-color: hsl(0, 100%, 67%);
+}
+
+.error label>span:first-child{
+    color: hsl(0, 100%, 67%);
+}
+
+.error label span.failedMsg{
+    color: hsl(0, 100%, 67%);
+    font-style: italic;
 }

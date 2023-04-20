@@ -14,10 +14,19 @@
 <body>
   <main>
     <form>
-      <div class="date">
-        <label for="day"><span>Day</span><input type="number" id="day" placeholder="DD"></label>
-        <label for="day"><span>Month</span><input type="number" id="month" placeholder="MM"></label>
-        <label for="day"><span>Year</span><input type="number" id="year" placeholder="YYYY"></label>
+      <div class="dateDiv">
+        <label id="lblDate" for="day">
+          <span>Day</span>
+          <input type="number" id="dayInput" placeholder="DD">
+        </label>
+        <label id="lblMonth" for="month">
+          <span>Month</span>
+          <input type="number" id="monthInput" placeholder="MM">
+        </label>
+        <label id="lblYear" for="year">
+          <span>Year</span>
+          <input type="number" id="yearInput" placeholder="YYYY">
+        </label>
       </div>
 
       <div class="button">
@@ -25,7 +34,7 @@
         <button class="submitBtn">
           <svg xmlns="http://www.w3.org/2000/svg" width="36" height="34" viewBox="0 0 46 44">
             <g fill="none" stroke="#FFF" stroke-width="2">
-              <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/>
+              <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
             </g>
           </svg>
         </button>
@@ -33,9 +42,9 @@
     </form>
 
     <div class="age">
-      <h1><span id="yearAge">--</span> years</h1>
-      <h1><span id="monthAge">--</span> months</h1>
-      <h1><span id="dayAge">--</span> days</h1>
+      <h1><span id="yearEl">--</span> years</h1>
+      <h1><span id="monthEl">--</span> months</h1>
+      <h1><span id="dayEl">--</span> days</h1>
     </div>
   </main>
 
