@@ -91,8 +91,16 @@ function getDaysInMonth(birthYear, birthMonth) {
 }
 
 function isValidYear(year) {
-    const d = new Date(year, 0, 1);
-    return d.getFullYear() === year;
+    if (isNaN(year) || year.toString().length !== 4) {
+        return false;
+    }
+
+    const currentYear = new Date().getFullYear();
+    if (year < 1900 || year > currentYear) {
+        return false;
+    }
+
+    return true;
 }
 
 function getValidationElement(element) {
