@@ -81,8 +81,15 @@ input[type="number"]:focus{
     width: 5rem;
     height: 5rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     cursor: pointer;
+}
+
+.submitBtn:hover{
+    background: hsl(0, 0%, 8%);
+    transition: 0.2s;
 }
 
 h1 {
@@ -109,3 +116,12 @@ h1 {
     color: hsl(0, 100%, 67%);
     font-style: italic;
 }
+
+@media only screen and (max-width: 425px) {
+    html {
+      font-size: 50%;
+    }
+    main{
+        width: 90%;
+    }
+  }
