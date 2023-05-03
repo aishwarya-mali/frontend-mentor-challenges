@@ -20,7 +20,7 @@ body {
 }
 
 main {
-  width: 70rem;
+  max-width: 70rem;
   display: flex;
   background: #fff;
   border-radius: 8px;
@@ -92,4 +92,74 @@ p.mb {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.share-icons{
+  background: hsl(217, 19%, 35%);
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  margin-left: -5px;
+  margin-bottom: 1.8rem;
+  visibility: hidden;
+}
+
+.share-icons::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+}
+
+.share-icons p{
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.share-icons > * {
+  margin-right: 1rem;
+}
+
+.mb-card-footer{
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  main{
+    flex-direction: column;
+    width: 100%;
+  }
+  .card-image img{
+    border-radius: 0;
+  }
+  .card-footer{
+    display: none;
+  }
+  .mb-card-footer{
+    background: hsl(217, 19%, 35%);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+  }
+  .mb-card-footer p{
+    color: #fff;
+  }
+  .share{
+    margin-left: auto;
+  }
+  .mb-card-footer > *:not(.share) {
+    margin-right: 5rem;
+  }
 }
