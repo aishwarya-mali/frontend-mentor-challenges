@@ -1,52 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | News homepage</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+  <nav>
+    <img src="./images/logo.svg" alt="logo">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">New</a></li>
+      <li><a href="#">Popular</a></li>
+      <li><a href="#">Trending</a></li>
+      <li><a href="#">Categories</a></li>
+    </ul>
+  </nav>
 
-  The Bright Future of Web 3.0?
+  <main>
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+    <picture>
+      <source media="(max-width:480px)" srcset="./images/image-web-3-mobile.jpg" sizes="(max-width: 480px) 100vw, 50vw">
+      <source media="(max-width:1440px)" srcset="./images/image-web-3-desktop.jpg"
+        sizes="(max-width: 1440px) 100vw, 50vw">
+      <img src="./images/image-web-3-desktop.jpg" alt="Web 3 Image">
+    </picture>
 
-  Read more
+    <section class="cta">
+      <h1>The Bright Future of Web 3.0?</h1>
+      <div>
+        <p class="light-p">We dive into the next evolution of the web that claims to put the power of the platforms back
+          into the hands
+          of the
+          people.
+          But is it really fulfilling its promise?</p>
+        <button>READ MORE</button>
+      </div>
+    </section>
 
-  New 
+    <section class="news-sidebar-container">
+      <h2>New</h2>
+      <div class="news-sidebar">
+        <h3>Hydrogen VS Electric Cars</h3>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </div>
+      <div class="border"></div>
+      <div class="news-sidebar">
+        <h3>The Downsides of AI Artistry</h3>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </div>
+      <div class="border"></div>
+      <div class="news-sidebar">
+        <h3>Is VC Funding Drying Up?</h3>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+    </section>
 
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
+    <article class="news">
+      <div class="news-img">
+        <img src="./images/image-retro-pcs.jpg" alt="">
+      </div>
+      <div class="news-info">
+        <h3>01</h3>
+        <h4>Reviving Retro PCs</h4>
+        <p class="light-p">What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </article>
+    <article class="news">
+      <div class="news-img">
+        <img src="./images/image-top-laptops.jpg" alt="">
+      </div>
+      <div class="news-info">
+        <h3>02</h3>
+        <h4>Our best picks for various needs and budgets.</h4>
+        <p class="light-p">What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </article>
+    <article class="news">
+      <div class="news-img">
+        <img src="./images/image-gaming-growth.jpg" alt="">
+      </div>
+      <div class="news-info">
+        <h3>03</h3>
+        <h4>The Growth of Gaming</h4>
+        <p class="light-p">How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </article>
+  </main>
 
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
   <script src="js/script.js"></script>
 </body>
+
 </html>
