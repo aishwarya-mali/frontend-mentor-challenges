@@ -16,6 +16,7 @@ body {
     width: 80%;
     margin: 0 auto;
     font-size: 1.5rem;
+    position: relative;
 }
 
 nav{
@@ -146,4 +147,68 @@ img{
 
 .news-info{
     flex: 0.7;
+}
+
+#hamburger-menu{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        width: 100%;
+        padding: 0 3rem 3rem 3rem;
+    }
+
+    #desktop-menu{
+        display: none;
+    }
+
+    #hamburger-menu{
+        display: inline-block;
+    }
+
+    picture, .cta, .news-sidebar-container, .news{
+        grid-column: span 3;
+    }
+
+    .cta{
+        flex-direction: column;
+    }
+
+    .news-sidebar-container{
+        grid-row: 3;
+    }
+
+    .news-sidebar-container h2{
+        margin-bottom: 1rem;
+    }
+
+    .border{
+        margin: 1rem 0;
+    }
+
+    #mb-menu{
+        position: absolute;
+        background: #fff;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 80%;
+        transition: all 0.2s;
+    }
+
+    #mb-menu img{
+        margin-left: 85%;
+        margin-top: 5%;
+        margin-bottom: 10rem;
+    }
+
+    #mb-menu li{
+        margin-bottom: 2rem;
+    }
+
+    #mb-menu li a{
+        color: #000;
+        font-size: 2rem;
+    }
 }
