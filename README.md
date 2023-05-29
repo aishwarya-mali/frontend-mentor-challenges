@@ -10,6 +10,10 @@
 | 6 | Responsive Fylo landing page with two column layout using HTML & CSS | [Preview Site](https://fylo-two-column-frontendmentor.netlify.app/) | [View Code](https://github.com/aishwarya-mali/frontend-mentor-challenges/tree/main/fylo-landing-page-with-two-column-layout)|
 | 7 | Four Card Feature Section using HTML & CSS | [Preview Site](https://four-card-feature-section-frontendmentor.netlify.app/) | [View Code](https://github.com/aishwarya-mali/frontend-mentor-challenges/tree/main/four-card-feature-section)|
 | 8 | Clipboard Landing Page using Animate.css | [Preview Site](https://clipboard-landing-frontendmentor.netlify.app/) | [View Code](https://github.com/aishwarya-mali/frontend-mentor-challenges/tree/main/clipboard-landing-page)|
+| 9 | Article preview component | [Preview Site](https://frontendmentorio-challenges.netlify.app/article-preview-component/) | [View Code](https://github.com/aishwarya-mali/frontend-mentor-challenges/tree/main/article-preview-component)|
+| 10 | Interactive rating component | [Preview Site](https://frontendmentorio-challenges.netlify.app/interactive-rating-component/) | [View Code](https://github.com/aishwarya-mali/frontend-mentor-challenges/tree/main/interactive-rating-component)|
+| 11 | Age calculator app | [Preview Site](https://frontendmentorio-challenges.netlify.app/age-calculator-app/) | [View Code](https://github.com/aishwarya-mali/frontend-mentor-challenges/tree/main/age-calculator-app)|
+<!-- | 12 |  | [Preview Site](https://frontendmentorio-challenges.netlify.app//) | [View Code]()| -->
 
 
 
