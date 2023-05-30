@@ -23,7 +23,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 6rem 0;
+    padding: 8rem 0 6rem 0;
 }
 
 ul {
@@ -130,6 +130,7 @@ h2{
 .news {
     display: flex;
     gap: 2rem;
+    margin-top: 3rem;
 }
 
 .news-img {
