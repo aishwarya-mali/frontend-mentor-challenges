@@ -13,6 +13,7 @@
 | 9 | Article preview component | [Preview Site](https://frontendmentorio-challenges.netlify.app/article-preview-component/) | [View Code](https://github.com/aishwarya-mali/frontend-mentor-challenges/tree/main/article-preview-component)|
 | 10 | Interactive rating component | [Preview Site](https://frontendmentorio-challenges.netlify.app/interactive-rating-component/) | [View Code](https://github.com/aishwarya-mali/frontend-mentor-challenges/tree/main/interactive-rating-component)|
 | 11 | Age calculator app | [Preview Site](https://frontendmentorio-challenges.netlify.app/age-calculator-app/) | [View Code](https://github.com/aishwarya-mali/frontend-mentor-challenges/tree/main/age-calculator-app)|
+| 12 | News Home Page | [Preview Site](https://frontendmentorio-challenges.netlify.app/news-homepage/) | [View Code](https://github.com/aishwarya-mali/frontend-mentor-challenges/tree/main/news-homepage)|
 <!-- | 12 |  | [Preview Site](https://frontendmentorio-challenges.netlify.app//) | [View Code]()| -->
 
 
