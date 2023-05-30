@@ -153,9 +153,23 @@ img {
     display: none;
 }
 
+#hamburger-menu.hidden{
+    display: none;
+}
+
+.hidden #close-menu{
+    display: inline-block;
+}
+
 #mb-menu {
     opacity: 0;
     display: none;
+}
+
+#mb-menu.fade-in{
+    display: inline-block;
+    opacity: 1;
+    animation: fadeIn 0.3s;
 }
 
 @keyframes fadeIn {

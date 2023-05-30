@@ -1,19 +1,12 @@
 const menu = document.getElementById('hamburger-menu')
 const closeMenu = document.getElementById('close-menu')
 const mbMenu = document.getElementById('mb-menu')
+const navbar =  document.querySelector('nav')
 
-menu.addEventListener('click', function(e){
-    menu.style.display = "none"
-    closeMenu.style.display = "inline-block"
-    mbMenu.style.display = "inline-block"
-    mbMenu.style.opacity = "1"
-    mbMenu.style.animation = "fadeIn 0.3s";
-})
+function toggleMenu(){
+    navbar.classList.toggle('hidden')
+    mbMenu.classList.toggle('fade-in')
+}
 
-closeMenu.addEventListener('click', function(e){
-    closeMenu.style.display = "none"
-    menu.style.display = "inline-block"
-    mbMenu.style.display = "none"
-    mbMenu.style.opacity = "0"
-    mbMenu.style.animation = "";
-})
+menu.addEventListener('click', toggleMenu)
+closeMenu.addEventListener('click', toggleMenu)
