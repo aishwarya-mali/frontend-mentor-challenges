@@ -23,7 +23,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 0;
+    padding: 5rem 0 2rem 0;
 }
 
 ul {
@@ -72,12 +72,12 @@ picture img {
 }
 
 .news-sidebar h3 {
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .news-sidebar p {
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     color: hsl(233, 8%, 79%);
     line-height: 1.8;
 }
@@ -92,7 +92,7 @@ picture img {
 }
 
 .cta h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 800;
     flex: 0.5;
 }
@@ -102,10 +102,14 @@ picture img {
 }
 
 .light-p {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     color: hsl(236, 13%, 42%);
     margin-bottom: 3rem;
     line-height: 1.8;
+}
+
+.news-info .light-p{
+    margin-bottom: 0;
 }
 
 .cta button {
@@ -113,10 +117,14 @@ picture img {
     border: none;
     background: hsl(5, 85%, 63%);
     color: #fff;
-    padding: 1rem 2rem;
-    font-size: 1rem;
+    padding: 1.5rem 2.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
+}
+
+h2{
+    font-size: 3.5rem;
 }
 
 .news {
@@ -131,11 +139,11 @@ picture img {
 .news h3 {
     color: hsl(233, 8%, 79%);
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .news h4 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
